@@ -122,6 +122,24 @@ body{
 
 }
 
+#github{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 330px;
+    transition: 200ms;
+
+}
+
+#github:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
 
 
 #pedra:hover{
