@@ -62,10 +62,32 @@ body{
 
 }
 
+#player{
+
+    position: absolute;
+    margin-top: 330px;
+    margin-right: 700px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#cpu{
+
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
 #pedra:hover{
 
     transform: scale(1.1);    
     box-shadow: 2px 10px 10px 3px;
+    background-color: #EEF1F0;
     cursor: pointer;
 }
 
@@ -73,6 +95,7 @@ body{
 
     transform: scale(1.1);
     box-shadow: 2px 10px 10px 3px;
+    background-color: #EEF1F0;
     cursor: pointer;
 
 }
@@ -81,6 +104,7 @@ body{
 
     transform: scale(1.1);
     box-shadow: 2px 10px 10px 3px;
+    background-color: #EEF1F0;
     cursor: pointer;
 
 }
