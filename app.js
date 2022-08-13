@@ -17,7 +17,6 @@ function jogo(btn){
 
         alert("Eu ganhei! Eu joguei papel! :)")
         pontuacao2 = pontuacao2+1
-                console.log(pontuacao2)
                 local2.innerText = pontuacao2
 
     }
@@ -25,22 +24,19 @@ function jogo(btn){
 
             alert("Você ganhou! Eu joguei tesoura :(")
             pontuacao1 = pontuacao1+1
-                        console.log(pontuacao1)
                         local1.innerText = pontuacao1
 
     }
                 else if(btn=="tesoura" && cpu==1){
 
-                alert("Eu ganhei! Eu joguei pedra!")
+                alert("Eu ganhei! Eu joguei pedra! :)")
                 pontuacao2 = pontuacao2+1
-                console.log(pontuacao2)
                 local2.innerText = pontuacao2
     }
                     else if(btn=="tesoura" && cpu==2){
 
-                    alert("Você ganhou! Eu joguei papel")
+                    alert("Você ganhou! Eu joguei papel :(")
                     pontuacao1 = pontuacao1+1
-                        console.log(pontuacao1)
                         local1.innerText = pontuacao1
 
 
@@ -55,7 +51,6 @@ function jogo(btn){
 
                         alert("Você ganhou! Eu joguei pedra :(")
                         pontuacao1 = pontuacao1+1
-                        console.log(pontuacao1)
                         local1.innerText = pontuacao1
 
 
@@ -67,9 +62,8 @@ function jogo(btn){
     }
                     else if(btn=="papel" && cpu==3){
 
-             alert("Eu ganhei! eu joguei tesoura!")
+             alert("Eu ganhei! eu joguei tesoura! :)")
              pontuacao2 = pontuacao1+1
-             console.log(pontuacao2)
              local2.innerText = pontuacao2
 
     }
