@@ -82,6 +82,23 @@ body{
 
 }
 
+#p1{
+
+    position: absolute;
+    margin-top: 370px;
+    margin-right: 700px;
+
+}
+
+#p2{
+
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 700px;
+
+}
+
+
 
 #pedra:hover{
 
