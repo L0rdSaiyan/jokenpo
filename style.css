@@ -1,0 +1,42 @@
+body{
+
+    min-height: 100vh;
+
+}
+
+
+#container{
+
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 900px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 60px;
+   
+
+}
+
+.btns{
+
+    width: 50px;
+    height: 30px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#pedra{
+
+    margin-right: 10px;
+
+}
+
+#papel{
+
+    margin-right: 10px;
+
+}
