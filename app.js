@@ -33,7 +33,22 @@ function jogo(btn){
         alert("Empate! Nós dois jogamos tesoura!")
 
     }
- 
+    else if(btn=="papel" &&  cpu==1){
+
+        alert("Você ganhou! Eu joguei pedra :(")
+
+    }
+    else if(btn=="papel" && cpu==2){
+
+        alert("Empate! Nós dois jogamos papel")
+
+    }
+    else if(btn=="papel" && cpu==3){
+
+        alert("Eu ganhei! eu joguei tesoura!")
+
+    }
+
 }
 
 
