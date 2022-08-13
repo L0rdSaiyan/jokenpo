@@ -20,23 +20,67 @@ body{
 
 .btns{
 
-    width: 50px;
-    height: 30px;
-    margin-top: 110px;
+
+    margin-top: 180px;
     display: flex;
     justify-content: center;
-
-
+    position: absolute;
 }
 
 #pedra{
 
     margin-right: 10px;
+    background-color: transparent;
+    background-image: url("pedra.png");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: 200ms;
 
 }
 
 #papel{
 
     margin-right: 10px;
+    background-color: transparent;
+    background-image: url("papel.png");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: 200ms;
+
+}
+
+#tesoura{
+
+    background-color: transparent;
+    background-image: url("tesoura.png");    
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    transition: 200ms;
+
+}
+
+#pedra:hover{
+
+    transform: scale(1.1);    
+    box-shadow: 2px 10px 10px 3px;
+    cursor: pointer;
+}
+
+#papel:hover{
+
+    transform: scale(1.1);
+    box-shadow: 2px 10px 10px 3px;
+    cursor: pointer;
+
+}
+
+#tesoura:hover{
+
+    transform: scale(1.1);
+    box-shadow: 2px 10px 10px 3px;
+    cursor: pointer;
 
 }
