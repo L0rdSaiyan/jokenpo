@@ -11,20 +11,21 @@ function jogo(btn){
     if(btn=="pedra" && cpu==1){
 
         alert("Empate! Nós dois jogamos pedra!")
+     
 
     }
         else if(btn=="pedra" && cpu==2){
 
         alert("Eu ganhei! Eu joguei papel! :)")
         pontuacao2 = pontuacao2+1
-                local2.innerText = pontuacao2
+        local2.innerText = pontuacao2
 
     }
             else if(btn=="pedra" && cpu==3){
 
             alert("Você ganhou! Eu joguei tesoura :(")
             pontuacao1 = pontuacao1+1
-                        local1.innerText = pontuacao1
+            local1.innerText = pontuacao1
 
     }
                 else if(btn=="tesoura" && cpu==1){
@@ -39,13 +40,12 @@ function jogo(btn){
                     pontuacao1 = pontuacao1+1
                         local1.innerText = pontuacao1
 
-
     }
                         else if(btn=="tesoura" && cpu==3){
 
                     alert("Empate! Nós dois jogamos tesoura!")
-                    
-
+            
+                
     }
                             else if(btn=="papel" &&  cpu==1){
 
@@ -58,12 +58,12 @@ function jogo(btn){
                          else if(btn=="papel" && cpu==2){
 
                     alert("Empate! Nós dois jogamos papel")
-
+                   
     }
                     else if(btn=="papel" && cpu==3){
 
              alert("Eu ganhei! eu joguei tesoura! :)")
-             pontuacao2 = pontuacao1+1
+             pontuacao2 = pontuacao2+1
              local2.innerText = pontuacao2
 
     }

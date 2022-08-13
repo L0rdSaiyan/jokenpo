@@ -3,16 +3,19 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(120deg, #550c05, #E61501);
+    color: white;
 
 }
+
 
 #cabecario{
 
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-left: 500px;
+    margin-left: 20px;
     margin-bottom: 550px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,9 +27,10 @@ body{
     display: flex;
     justify-content: center;
     border: 3px solid black;
+    align-items: center;
     width: 900px;
     height: 500px;
-    margin-left: 180px;
+    margin-left: 20px;
     margin-top: 60px;
    
 
@@ -35,7 +39,7 @@ body{
 .btns{
 
 
-    margin-top: 180px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -78,9 +82,11 @@ body{
 
 #player{
 
+    display: flex;
+    justify-content: center;
     position: absolute;
-    margin-top: 330px;
-    margin-right: 700px;
+    margin-top: 260px;
+    margin-right: 600px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -88,9 +94,11 @@ body{
 
 #cpu{
 
+    display: flex;
+    justify-content: center;
     position: absolute;
-    margin-top: 330px;
-    margin-left: 700px;
+    margin-top: 260px;
+    margin-left: 600px;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -98,17 +106,19 @@ body{
 
 #p1{
 
-    position: absolute;
-    margin-top: 370px;
-    margin-right: 700px;
-
+    display: flex;
+    justify-content: center;
+    margin-top: 320px;
+    margin-right: 600px;
 }
 
 #p2{
 
+    display: flex;
+    justify-content: center;
     position: absolute;
-    margin-top: 370px;
-    margin-left: 700px;
+    margin-top: 320px;
+    margin-left: 600px;
 
 }
 
