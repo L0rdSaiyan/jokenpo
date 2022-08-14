@@ -9,7 +9,6 @@ body{
 
 }
 
-
 #cabecario{
 
     display: flex;
@@ -176,8 +175,6 @@ body{
 
 }
 
-
-
 #github{
 
     display: flex;
@@ -229,6 +226,7 @@ body{
     transform: scale(1.1);
     box-shadow: 2px 10px 10px 3px;
     border-color: white;
+    background-color: rgb(175, 12, 12);
     letter-spacing: 2px;
     cursor: pointer;
 
