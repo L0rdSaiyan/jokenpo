@@ -82,9 +82,9 @@ body{
 
 #player{
 
+    position: absolute;
     display: flex;
     justify-content: center;
-    position: absolute;
     margin-top: 260px;
     margin-right: 600px;
     font-size: 20px;
@@ -94,9 +94,9 @@ body{
 
 #cpu{
 
+    position: absolute;
     display: flex;
     justify-content: center;
-    position: absolute;
     margin-top: 260px;
     margin-left: 600px;
     font-size: 20px;
@@ -119,6 +119,18 @@ body{
     position: absolute;
     margin-top: 320px;
     margin-left: 600px;
+
+}
+
+#saida{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 
 }
 
