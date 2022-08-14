@@ -71,4 +71,38 @@ function jogo(btn){
 }
 
 
+function finish(){
 
+    const local1 = document.getElementById("p1")
+    const local2 = document.getElementById("p2")
+    const saida = document.getElementById("saida")
+    const mvp = document.getElementById("mvp")
+    const placar1 = document.getElementById("placar1")
+    const placar2 = document.getElementById("placar2")
+
+    local1.innerText = ""
+    local2.innerText = ""
+    saida.innerText = ""
+    placar1,placar2.innerText = ""
+
+    if(pontuacao1>pontuacao2){
+        
+        placar1.innerText = `Player - ${pontuacao1}`
+        placar2.innerText = `CPU - ${pontuacao2}`
+
+    }else if(pontuacao2>pontuacao1){
+
+        placar1.innerText = `CPU - ${pontuacao2}`
+        placar2.innerText = `Player - ${pontuacao1}`
+
+    }else{
+
+        placar1.innerText = `Player - ${pontuacao1}`
+        placar2.innerText = `CPU - ${pontuacao2}`
+
+    }
+
+    pontuacao1 = 0
+    pontuacao2 = 0
+
+}

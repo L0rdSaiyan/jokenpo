@@ -38,7 +38,6 @@ body{
 
 .btns{
 
-
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -134,6 +133,51 @@ body{
 
 }
 
+#finalizar{
+
+
+    background-color: transparent;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 390px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    transition: 200ms;
+
+}
+
+#placar1{
+
+    position: absolute;
+    display: flex;
+    margin-bottom: 400px;
+    margin-right: 740px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#placar2{
+
+    position: absolute;
+    display: flex;
+    margin-bottom: 340px;
+    margin-right: 740px;
+
+}
+
+#mvp{
+
+    position: absolute;
+    display: flex;
+    margin-bottom: 470px;
+    margin-right: 740px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
 #github{
 
     display: flex;
@@ -176,6 +220,16 @@ body{
     transform: scale(1.1);
     box-shadow: 2px 10px 10px 3px;
     background-color: rgb(175, 12, 12);
+    cursor: pointer;
+
+}
+
+#finalizar:hover{
+
+    transform: scale(1.1);
+    box-shadow: 2px 10px 10px 3px;
+    border-color: white;
+    letter-spacing: 2px;
     cursor: pointer;
 
 }
